@@ -33,7 +33,7 @@ async function loadEvent() {
             `
     }
 
-    for (let index = 0; index < countriesJson.length; index++) {
+    for (let index = 0; index < 10; index++) {
         console.log(index)
        // document.getElementById("countries").insertAdjacentHTML("beforeend", countriesJson[index].name.common);
         document.getElementById("countries").insertAdjacentHTML("beforeend", countryComponent( countriesJson[index].name.common));

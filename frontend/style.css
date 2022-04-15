@@ -32,6 +32,33 @@ header{
     z-index: 100;
 }
 
+.image-container {
+
+overflow: hidden;
+
+}
+
+.image-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.background-container {
+
+    padding: 40px;
+    background-image: url(https://codecool.com/wp-content/uploads/2021/09/Home-Header.jpg);
+    background-size: 400px x 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: padding-box;
+}
+
+.gradient{
+
+    background-image: linear-gradient(red, blue);
+}
+
 #logo,
 header nav{
     display: inline-block;
@@ -144,3 +171,15 @@ body > div > div > div > div > div > div > div > div > div > div {
     height: 10vh;
     background-color: rgb(255, 27, 28);
 }
+
+section{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vh;
+    height: 25vh;
+
+
+}
+
